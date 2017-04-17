@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <netdb.h>
-#include <assert.h>
 #include <sys/types.h>
 #include <sys/queue.h>
 #include <err.h>
@@ -10,7 +9,6 @@
 #include <libpq-fe.h>
 
 #include <dynamic.h>
-#include <clo.h>
 #include <reactor.h>
 
 #include "reactor_postgres.h"
