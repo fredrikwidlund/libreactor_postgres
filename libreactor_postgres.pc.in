@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=${prefix}/include
+
+Name: libreactor_postgres
+Description: libreactor PostgreSQL module 
+Version: @VERSION@
+Libs: -L${libdir} -lreactor_postgres
+Cflags: -I${includedir} -flto -fuse-linker-plugin
